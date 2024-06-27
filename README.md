@@ -1,4 +1,3 @@
-﻿# pdf-summarizer-tts
 # PDF Summarizer and Text-to-Speech Converter
 
 This project provides a web-based interface for summarizing PDF documents and converting the summaries to speech. It uses state-of-the-art natural language processing models for summarization and Google's Text-to-Speech service for audio generation.
