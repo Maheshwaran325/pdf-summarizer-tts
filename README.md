@@ -21,11 +21,17 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/pdf-summarizer-tts.git
+   git clone https://github.com/Maheshwaran325/pdf-summarizer-tts.git
    cd pdf-summarizer-tts
    ```
 
-2. Install the required dependencies:
+2. Create a virtual environment 
+    ```
+    python -m venv .venv
+    .venv\scripts\activate  # for windows
+    ```
+
+3. Install the required dependencies:
    ```
    pip install gradio transformers pdfplumber torch gtts
    ```
